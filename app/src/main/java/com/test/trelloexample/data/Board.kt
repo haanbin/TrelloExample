@@ -1,0 +1,30 @@
+package com.test.trelloexample.data
+
+data class Board(
+    val closed: Boolean,
+    val creationMethod: Any,
+    val dateLastActivity: Any,
+    val dateLastView: String,
+    val datePluginDisable: Any,
+    val desc: String,
+    val descData: Any,
+    val enterpriseOwned: Boolean,
+    val id: String,
+    val idEnterprise: Any,
+    val idOrganization: String,
+    val idTags: List<Any>,
+    val ixUpdate: Any,
+    val labelNames: LabelNames,
+    val limits: Any,
+    val memberships: List<Membership>,
+    val name: String,
+    val pinned: Any,
+    val powerUps: List<Any>,
+    val prefs: Prefs,
+    val shortLink: String,
+    val shortUrl: String,
+    val starred: Boolean,
+    val subscribed: Boolean,
+    val templateGallery: Any,
+    val url: String
+)
